@@ -35,7 +35,7 @@ export default function Portfolio() {
   return (
     <div className="portfolio" id="portfolio">
       <div className="pl_texts">
-        <h2 className="pl_title">Portfolio</h2>
+        <h2 className="pl_title">Projects</h2>
         <ul>
           {list.map((li) => (
           <PortfolioList title={li.title} id={li.id} active={selected === li.id} setSelected={setSelected}/>
