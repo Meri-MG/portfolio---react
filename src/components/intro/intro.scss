@@ -1,3 +1,75 @@
+@import '../../global.scss';
+
 .intro {
-  background-color: pink;
+  background-color: $whiteColor;
+  display: flex;
+
+    .left {
+      flex: 0.5;
+      overflow: hidden;
+
+      .img_container {
+        width: 700px;
+        height: 700px;
+        background-color: crimson;
+        border-radius: 50%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        float: right;
+
+          img {
+            height: 90%;
+          }
+      }
+    }
+
+    .right {
+      flex: 0.5;
+      position: relative;
+
+      .wrapper {
+        width: 100%;
+        height: 100%;
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+          font-size: 40px;
+          margin: 10px 0;
+        }
+
+        h2 {
+          font-size: 35px;
+        }
+
+        h3 {
+          font-size: 25px;
+
+          span {
+            color: crimson;
+          }
+        }
+      }
+
+      a {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+
+        img {
+          width: 30px;
+          animation: arrowBlink 2s infinite;
+        }
+
+        @keyframes arrowBlink {
+          100% {
+            opacity: 0;
+          }
+        }
+      }
+    }
 }
