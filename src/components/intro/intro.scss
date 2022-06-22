@@ -5,27 +5,38 @@
   display: flex;
 
     .left {
-      flex: 0.5;
+      flex: 1;
       overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      position: relative;
 
-      .img_container {
-        width: 700px;
-        height: 700px;
-        background-color: crimson;
-        border-radius: 50%;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        float: right;
+      .img {
+        width: 60%;
+        height: 70vh;
+        border-radius: 30px;
+        overflow: hidden;
+        position: relative;
 
-          img {
-            height: 90%;
-          }
+        &.bg {
+          position: absolute;
+          top: 70px;
+          left: 70px;
+          background-color: crimson;
+        }
+
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
       }
     }
 
     .right {
-      flex: 0.5;
+      flex: 1;
       position: relative;
 
       .wrapper {

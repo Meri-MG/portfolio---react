@@ -6,8 +6,9 @@ export default function Intro() {
   return (
     <div className="intro" id="intro">
       <div className="left">
-        <div className="img_container">
-          <img src="images/proPhoto.jpg" alt="my_photo" />
+        <div className="img bg"></div>
+        <div className="img img_container">
+          <img src="images/proPhoto.png" alt="my_photo" />
         </div>
       </div>
       <div className="right">
