@@ -4,6 +4,10 @@
   background-color: $whiteColor;
   display: flex;
 
+  @include mobile {
+    flex-direction: column;
+  }
+
   .left {
     flex: 1;
     overflow: hidden;
@@ -36,6 +40,11 @@
         width: 300px;
         font-size: 14px;
         height: 30px;
+
+        @include mobile {
+          width: 200px;
+          height: 20px;
+        }
       }
 
       textarea {
@@ -43,6 +52,11 @@
         font-size: 14px;
         height: 200px;
         padding: 20px;
+
+        @include mobile {
+          width: 200px;
+          height: 100px;
+        }
       }
 
       button {

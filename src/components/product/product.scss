@@ -8,6 +8,11 @@
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
 
+  @include mobile {
+    width: 70%;
+    height: 40vh;
+  }
+
   .card_browser {
     height: 20px;
     background-color: rgb(243, 242, 242);

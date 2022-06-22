@@ -7,6 +7,11 @@
   align-items: center;
   position: relative;
 
+  @include mobile {
+    display: none;
+  }
+  
+
   .test_header {
     position: absolute;
     top: 20px;
@@ -18,6 +23,10 @@
     height: 50px;
     position: absolute;
     cursor: pointer;
+
+    @include mobile {
+      display: none;
+    }
 
     &.left {
       left: 100px;
@@ -37,6 +46,12 @@
     left: 0;
     transition: all 1s ease-out;
 
+    @include mobile {
+      height: 100vh;
+      flex-direction: column;
+      justify-content: center;
+    }
+
     .container {
       width: 100vw;
       display: flex;
@@ -51,6 +66,12 @@
         align-items: center;
         background-color: $whiteColor;
         border-radius: 20px;
+
+        @include mobile {
+          width: 80%;
+          height: 200px;
+          margin: 5px 0;
+        }
 
         .left {
           flex: 4;

@@ -8,6 +8,12 @@
   justify-content: center;
   padding: 50px 100px;
 
+  h2 {
+    @include mobile {
+      font-size: 30px;
+    }
+  }
+
   .pl_texts {
     width: 65%;
     font-size: 35px;
@@ -23,6 +29,10 @@
       display: flex;
       align-items: center;
       justify-content: center;
+
+      @include mobile {
+        margin-bottom: 20px;
+      }
 
     li {
       font-size: 14px;
@@ -45,5 +55,9 @@
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
+
+    @include mobile {
+      flex-direction: column;
+    }
   }
 }
