@@ -41,7 +41,7 @@
 
 .about__card:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-primary);
     cursor: default;
 }
 
@@ -90,7 +90,6 @@
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
-        margin: 0 1rem;
     }
 
     .about__content {
