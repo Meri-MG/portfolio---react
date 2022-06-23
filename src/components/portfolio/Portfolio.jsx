@@ -66,10 +66,7 @@ const Portfolio = () => {
             <a href={pro.link} className="btn btn-primary">Live Demo</a>
           </div>
         </article>
-        ))}
-
-        <img src="assets/bookstore.png" />
-        
+        ))}   
       </div>
     </section>
   )
