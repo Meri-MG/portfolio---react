@@ -1,7 +1,7 @@
 # Personal-Portfolio
 > This is personal portfolio website.
 
-![Portfolio](https://raw.github.com/Meri-MG/Portfolio-mobile-version/master/src/assets/port.png)
+![Portfolio](https://raw.github.com/Meri-MG/portfolio---react/master/src/assets/port.png)
 
 ## Built With
 
@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-- [Live Demo]()
+- [Live Demo](https://chic-biscochitos-af5267.netlify.app/)
 
 
 # Getting Started
