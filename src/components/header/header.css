@@ -7,7 +7,7 @@ header {
 .header__container {
   text-align: center;
   height: 100%;
-  position: relative;
+  /* position: relative; */
 }
 
 .cta {
@@ -23,7 +23,7 @@ header {
   align-items: center;
   gap: 0.8rem;
   position: absolute;
-  left: 0;
+  left: 5rem;
   bottom: 3rem;
 }
 
@@ -36,7 +36,7 @@ header {
 
 .me {
   width: 22rem;
-  height: 30rem;
+  height: 500px;
   position: absolute;
   left: calc(50% - 11rem);
   margin-top: 4rem;
@@ -45,13 +45,14 @@ header {
   overflow: hidden;
 }
 
-.me img {
+#me {
   border-radius: 12rem 12rem 0 0;
+  height: 100%;
 }
 
 .scroll__down {
   position: absolute;
-  right: -2.3rem;
+  right: 5rem;
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
