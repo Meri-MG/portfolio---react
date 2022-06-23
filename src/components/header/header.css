@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: 100%;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -24,7 +24,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 5rem;
-  bottom: 3rem;
+  bottom: 1rem;
 }
 
 .header__socials::after {
@@ -32,22 +32,6 @@ header {
   width: 1px;
   height: 2rem;
   background: var(--color-primary);
-}
-
-.me {
-  width: 22rem;
-  height: 500px;
-  position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 4rem;
-  /* border-radius: 12rem 12rem 0 0; */
-  /* background: linear-gradient(var(--color-primary), transparent); */
-  overflow: hidden;
-}
-
-#me {
-  border-radius: 12rem 12rem 0 0;
-  height: 100%;
 }
 
 .scroll__down {
