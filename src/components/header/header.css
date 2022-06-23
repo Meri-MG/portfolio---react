@@ -7,7 +7,7 @@ header {
 .header__container {
   text-align: center;
   height: 100%;
-  /* position: relative; */
+  position: relative;
 }
 
 .cta {
