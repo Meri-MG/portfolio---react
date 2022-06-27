@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
-import ME from '../../assets/me.jpg';
+import ME from '../../assets/unnamed.jpg';
 import './intro.css';
 
 const Intro = () => {
@@ -19,16 +19,16 @@ const Intro = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>1 year</small>
+              <h5>Education</h5>
+              <small>Incoming Senior in High School</small>
             </article>
             <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>20+ Completed Projects</small>
+              <FaAward className='about__icon'/>
+              <h5>Experience</h5>
+              <small>2 internships and co-founder of Hack Club</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, building everything from landing pages to APIs. My experience as a teacher in an international school helped me collaborate with fellow developers from all over the world. Additionally, working with kids isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>
+          <p>Currently, I am a high school student looking for an internship for a position that involves programming. I am currently learning Java and have basic knowledge in Python. At school, I have been involved in creating a club that encourages programming for all, which I can improve with more experience in the field of computer science.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>

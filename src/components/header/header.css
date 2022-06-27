@@ -19,20 +19,21 @@ header {
 
 .header__socials {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   gap: 0.8rem;
-  position: absolute;
-  left: 5rem;
+  /*position: absolute;
+    align-items: center;
+*/
   bottom: 1rem;
+  justify-content:'center';
+  align-items:'center';
 }
 
-.header__socials::after {
+/*.header__socials::after {
   content: '';
   width: 1px;
   height: 2rem;
   background: var(--color-primary);
-}
+}*/
 
 .scroll__down {
   position: absolute;
