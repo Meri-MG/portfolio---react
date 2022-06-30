@@ -3,8 +3,11 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
+    color:#fff;
 } 
-
+::placeholder{
+    color:white;
+}
 .contact__options {
     display: flex;
     flex-direction: column;
@@ -59,7 +62,7 @@ textarea {
     background: transparent;
     border: 2px solid var(--color-primary-variant);
     resize: none;
-    color: var(--color-white);
+    color: var(#fff);
 }
 
 @media screen and (max-width: 1024px){

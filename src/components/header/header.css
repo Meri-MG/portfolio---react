@@ -2,6 +2,7 @@ header {
   height: 100%;
   padding-top: 7rem;
   overflow: hidden;
+  padding-bottom: 0rem;
 }
 
 .header__container {
@@ -10,20 +11,13 @@ header {
   position: relative;
 }
 
-.cta {
-  display: flex;
-  justify-content: center;
-  gap: 1.2rem;
-  margin-top: 2.5rem;
-}
-
 .header__socials {
   display: flex;
   gap: 0.8rem;
   /*position: absolute;
     align-items: center;
-*/
-  bottom: 1rem;
+
+  bottom: 1rem;*/
   justify-content:'center';
   align-items:'center';
 }
@@ -38,16 +32,15 @@ header {
 .scroll__down {
   position: absolute;
   right: 5rem;
-  bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
 }
 
 @media screen and (max-width: 1024px){
-  header {
+  /*header {
     height: 68vh;
-  }
+  }*/
 
   section {
     margin-top: 6rem;
@@ -55,9 +48,9 @@ header {
 }
 
 @media screen and (max-width: 600px){
-  header {
+  /*header {
     height: 100vh;
-  }
+  }*/
 
   .header__socials,
   .scroll__down {

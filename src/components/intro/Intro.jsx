@@ -28,7 +28,7 @@ const Intro = () => {
               <small>2 internships and co-founder of Hack Club</small>
             </article>
           </div>
-          <p>Currently, I am a high school student looking for an internship for a position that involves programming. I am currently learning Java and have basic knowledge in Python. At school, I have been involved in creating a club that encourages programming for all, which I can improve with more experience in the field of computer science.</p>
+          <p>Currently, I am a high school student looking for an internship for a position that involves programming. I enjoy learning new programming languages and ways to solve issues around me! At school, I have been involved in creating a club that encourages programming for all, which I can improve with more experience in the field of computer science.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
