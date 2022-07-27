@@ -45,6 +45,10 @@
     font-weight: 500;
 }
 
+form span {
+    font-size: 0.8rem;
+}
+
 form {
     display: flex;
     flex-direction: column;
