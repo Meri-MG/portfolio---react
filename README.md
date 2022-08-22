@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-- [Live Demo](https://chic-biscochitos-af5267.netlify.app/)
+- [Live Demo](https://meri-mg-portfolio.netlify.app/)
 
 
 # Getting Started
