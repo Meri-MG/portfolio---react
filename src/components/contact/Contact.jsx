@@ -35,6 +35,7 @@ const Contact = () => {
         provided :)
       </h5>
       <h2>Contact Me</h2>
+      
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
@@ -68,6 +69,9 @@ const Contact = () => {
           </button>
           {message && <span>Thanks, I'll reply ASAP :)</span>}
         </form>
+        <a href="#home" className="scroll__up">
+          Scroll up
+        </a>
       </div>
     </section>
   );

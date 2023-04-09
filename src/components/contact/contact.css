@@ -4,6 +4,18 @@
     grid-template-columns: 30% 58%;
     gap: 12%;
 } 
+.scroll__up {
+    position: relative;
+    left: 60rem;
+    bottom: 10rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
 
 .contact__options {
     display: flex;
