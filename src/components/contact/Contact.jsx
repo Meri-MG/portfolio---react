@@ -29,44 +29,44 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
+      <h5>Entrer en contact</h5>
       <h5>
-        I do receive your messages and will respond asap if the valid email is
-        provided :)
+      Je reçois vos messages et vous répondrai dès que possible si l'e-mail valide est
+        fourni :)
       </h5>
-      <h2>Contact Me</h2>
+      <h2>Contactez moi</h2>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
-            <h4>Email</h4>
-            <h5>mekomerikomg@gmail.com</h5>
-            <a href="mailto:mekomerikomg@gmail.com">Send a message</a>
+            <h4>E-mail</h4>
+            <h5>sami.abdulhalim@edu.ece.fr</h5>
+            <a href="mailto:sami.abdulhalim@edu.ece.fr">Envoyer un message</a>
           </article>
         </div>
         <form ref={formRef} onSubmit={handleSubmit}>
           <input
             type="text"
-            placeholder="Your Full Name"
+            placeholder="Votre nom complet"
             name="user_name"
             required
           />
           <input
             type="text"
-            placeholder="Your Email"
+            placeholder="Votre e-mail"
             name="user_email"
             required
           />
           <textarea
-            placeholder="Your message"
+            placeholder="Votre message"
             rows="7"
             name="message"
             required
           ></textarea>
           <button type="submit" className="btn btn-primary">
-            Send Message
+          Envoyer le message
           </button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+          {message && <span>Merci, je répondrai au plus vite :)</span>}
         </form>
       </div>
     </section>

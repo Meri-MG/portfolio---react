@@ -5,8 +5,8 @@ import './experience.css';
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>The Skills I Have</h5>
-      <h2>Skills</h2>
+      <h5>Les compétences que j'ai</h5>
+      <h2>compétences</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
           <h3>Front-end Development</h3>
@@ -46,23 +46,23 @@ const Experience = () => {
           <div className="experience__content">
           <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Ruby</h4>
+              <h4>Nodejs</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Ruby on Rails</h4>
+              <h4>Express.Js</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>PostgreSQL</h4>
+              <h4>MongoDB</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Swagger</h4>
+              <h4>MYSQL</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>RSpec</h4>
+              <h4>PHP</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
