@@ -7,8 +7,8 @@ import './intro.css';
 const Intro = () => {
   return (
     <section id="about">
-      <h5>Get to know</h5>
-      <h2>About Me</h2>
+      <h5>Faire connaissance</h5>
+      <h2>Sur moi</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -19,17 +19,17 @@ const Intro = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>1 year</small>
+              <h5>Expérience</h5>
+              <small>1 an</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>20+ Completed Projects</small>
+              <h5>Projets</h5>
+              <small>Plus de 10 projets terminés</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, building everything from landing pages to APIs. My experience as a teacher in an international school helped me collaborate with fellow developers from all over the world. Additionally, working with kids isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <p>Je m'appelle Sami, j'ai 22 ans et je suis actuellement en Bachelor Développement Web & Mobile a l'ecole ECE Paris pour devenir développeur web full-stack. Après celle-ci je souhaiterais poursuivre sur un master pour élargir mes compétences dans le domaine du web. J'aime toucher à tout et être autonome sur les projets que l'on me confie, cependant j'apporte une affection supplémentaire au développement dit back-end, notamment avec PHP.</p>
+          <a href="#contact" className="btn btn-primary">Parlons</a>
         </div>
       </div>
     </section>
