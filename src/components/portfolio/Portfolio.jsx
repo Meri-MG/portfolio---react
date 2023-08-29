@@ -1,5 +1,5 @@
 import React from 'react';
-import IMG1 from '../../assets/bookstore.png';
+import IMG1 from '../../assets/alc.png';
 import IMG2 from '../../assets/todo.png';
 import IMG3 from '../../assets/shelter.png';
 import IMG4 from '../../assets/fake.png';
@@ -12,13 +12,13 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: 'Bookstore',
+      title: 'Adventist Learning Center',
       img: IMG1,
       description:
-        'BookStore app that allows users to store books and update progress',
-      technologies: 'React | Redux | Ruby on Rails',
-      link: 'https://melodic-boba-111583.netlify.app/',
-      github: 'https://github.com/Meri-MG/bookstore---react',
+        'Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.',
+      technologies: 'Ruby on Rails | SCSS',
+      link: 'https://adventistlearningcenter-257375ab1970.herokuapp.com/',
+      github: 'https://github.com/Meri-MG/school',
     },
     {
       id: 2,
@@ -32,7 +32,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: 'To-Do-App',
+      title: 'To-Do App',
       img: IMG2,
       description: 'User friendly app to plan your day and manage tasks',
       technologies: 'JavaScript | Webpack',

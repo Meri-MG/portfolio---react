@@ -48,6 +48,13 @@ const Testimonials = () => {
       role: 'Software Developer',
       test: "Throughout all our collaborations, Meri has always conducted herself politely and kindly. She comes across as someone that's always willing to help and puts the team ahead of herself. But beneath this, I see a strength and determination to distinguish herself. She's not only someone I highly recommend but is also someone I greatly respect.",
     },
+    {
+      id: 6,
+      link: 'https://www.linkedin.com/in/rex9/',
+      name: 'Htet (Rex) Naing',
+      role: 'Full Stack Developer | Mindful Mentor | Cheerful Team Player',
+      test: "Meri is really cheerful and supportive person. I know her when she reviewed my resume. Her feedback was so crystal clear and super effective for me. After that, even though she has no responsibility of reviewing my resume again. She helped me patiently when I ask her again and again. Meri is gifted in reviewing the work and giving advice to others. I feel really lucky to have her as the reviewer of my resume.",
+    },
   ];
   return (
     <section id="testmonials">
