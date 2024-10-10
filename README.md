@@ -4,7 +4,9 @@
 ![Portfolio](https://raw.github.com/Meri-MG/portfolio---react/master/src/assets/port.png)
 
 ## Built With
-
+_ HTML
+_ css
+_ javascript
 - React
 - CSS
 - VS code
